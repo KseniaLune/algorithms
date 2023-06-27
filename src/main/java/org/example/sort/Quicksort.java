@@ -1,5 +1,5 @@
 package org.example.sort;
-
+//O(n*log n)
 public class Quicksort {
 
     public int[] sorting (int [] array, int start, int end){

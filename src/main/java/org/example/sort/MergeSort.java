@@ -1,5 +1,5 @@
 package org.example.sort;
-
+//O(n*log n)
 public class MergeSort {
     public int[] sort (int [] arr){
         int length = arr.length;

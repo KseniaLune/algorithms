@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2e6aa12-0e91-4b53-9210-392a59853e1e" name="Changes" comment="add Bubble sort">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/MergeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f2e6aa12-0e91-4b53-9210-392a59853e1e" name="Changes" comment="add MergeSort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/DeepTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/CountingSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/Quicksort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,20 @@
       <recent name="org.example.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergeSortTest">
+  <component name="RunManager" selected="Gradle.CountingSortTest">
+    <configuration name="DeepTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.tree.DeepTree" />
+      <module name="algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="algorithms" />
       <working_directory value="$PROJECT_DIR$" />
@@ -133,6 +148,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CountingSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.sort.CountingSortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,59 +194,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuicksortTest.sortDifficultArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.sort.QuicksortTest.sortDifficultArray&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="QuicksortTest.sortSimpleArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.sort.QuicksortTest.sortSimpleArray&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CountingSortTest" />
+        <item itemvalue="Application.DeepTree" />
         <item itemvalue="Gradle.MergeSortTest" />
         <item itemvalue="Gradle.BubbleSortTest.hardTest" />
         <item itemvalue="Gradle.BubbleSortTest.simpleTest" />
-        <item itemvalue="Gradle.QuicksortTest.sortDifficultArray" />
-        <item itemvalue="Gradle.QuicksortTest.sortSimpleArray" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687176935806</updated>
       <workItem from="1687176937727" duration="2068000" />
-      <workItem from="1687515812299" duration="443000" />
+      <workItem from="1687515812299" duration="10147000" />
     </task>
     <task id="LOCAL-00001" summary="add Bubble sort">
       <created>1687178989670</created>
@@ -230,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687178989670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add MergeSort">
+      <created>1687516618890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687516618890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Bubble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Bubble sort" />
+    <MESSAGE value="add MergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MergeSort" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
