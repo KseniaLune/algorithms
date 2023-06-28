@@ -2,16 +2,16 @@ package org.example.sort;
 
 //On^2
 public class BubbleSort {
-    public int[] sorting(int[] array){
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if (array[j]>array[i]){
-                    int temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
+    public int[] sorting(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[j]>arr[i]){
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
             }
         }
-        return array;
+        return arr;
     }
 }

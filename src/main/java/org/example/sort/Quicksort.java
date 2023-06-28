@@ -2,14 +2,14 @@ package org.example.sort;
 //O(n*log n)
 public class Quicksort {
 
-    public int[] sorting (int [] array, int start, int end){
+    public int[] sorting (int [] arr, int start, int end){
         if (start < end) {
-            int pivotInd = sort(array, start, end);
+            int pivotInd = sort(arr, start, end);
 
-            sorting(array, start, pivotInd - 1);
-            sorting(array, pivotInd, end);
+            sorting(arr, start, pivotInd - 1);
+            sorting(arr, pivotInd, end);
         }
-        return array;
+        return arr;
     }
     private int sort (int [] array, int start, int end){
         int startIndex = start;
