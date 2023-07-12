@@ -13,8 +13,8 @@ class BubbleSortTest {
     public void simpleTest (){
         int [] array = {3,5,2,1,4};
         int [] arraySort = Arrays.stream(array).sorted().toArray();
-
-        assertArrayEquals(arraySort, bubbleSort.sorting(array));
+        bubbleSort.sorting(array);
+        assertArrayEquals(arraySort, array);
 
     }
     @Test
@@ -22,8 +22,8 @@ class BubbleSortTest {
 
         int [] array = {100, -8,4,0,0,23,83,-5436,1};
         int [] arraySort = Arrays.stream(array).sorted().toArray();
-
-        assertArrayEquals(arraySort, bubbleSort.sorting(array));
+        bubbleSort.sorting(array);
+        assertArrayEquals(arraySort, array);
     }
 
 }

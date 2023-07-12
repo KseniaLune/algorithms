@@ -1,4 +1,7 @@
 package org.example.sort;
+
+import java.util.Arrays;
+
 //O(n*log n)
 public class Quicksort {
 
@@ -32,6 +35,9 @@ public class Quicksort {
                 endIndex--;
             }
         }
+        System.out.println(Arrays.toString(array));
+        System.out.println("pivot = "+pivot);
+        System.out.println("return = "+startIndex);
         return startIndex;
     }
 }

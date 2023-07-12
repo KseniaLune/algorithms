@@ -4,7 +4,7 @@ package org.example.sort;
 //проблемы с памятью из-за создания массива диапазона чисел
 public class CountingSort {
     public int[] sorting(int[] arr, int maxValue) {
-        int[] count = new int[maxValue];
+        int[] count = new int[maxValue+1];
 
         for (int i = 0; i < arr.length; i++) {
             count[arr[i]]++;
