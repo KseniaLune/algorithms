@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2e6aa12-0e91-4b53-9210-392a59853e1e" name="Changes" comment="add sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AlgoTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/search/InArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/search/InArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/Quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sort/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sort/QuicksortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sort/QuicksortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +223,8 @@
       <workItem from="1687176937727" duration="2068000" />
       <workItem from="1687515812299" duration="19747000" />
       <workItem from="1688041064457" duration="7507000" />
-      <workItem from="1688982633982" duration="1717000" />
+      <workItem from="1688982633982" duration="2795000" />
+      <workItem from="1689582195542" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="add Bubble sort">
       <created>1687178989670</created>
@@ -261,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687939768738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add sort">
+      <created>1689164050865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689164050865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
