@@ -9,6 +9,7 @@ public class ThreeSum {
     // { -40 -30 -20 0 5 10 20 30 40} //count = 5
     public static void main(String[] args) {
 
+
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
         String[] str = s.split(" ");
@@ -31,6 +32,7 @@ public class ThreeSum {
                     if (arr[i] + arr[j] + arr[k] == 0) {
                         count++;
                     }
+
                 }
             }
         }
