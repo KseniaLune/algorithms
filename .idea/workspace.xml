@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2e6aa12-0e91-4b53-9210-392a59853e1e" name="Changes" comment="done part 2 of sedgewick course">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sedgewick/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sedgewick/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sedgewick/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sedgewick/StackCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sedgewick/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sedgewick/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +59,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3-sedgewick-course-2" />
+        <entry key="$PROJECT_DIR$" value="5-3-sedgewick" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +115,20 @@
       <recent name="org.example.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest.search">
+  <component name="RunManager" selected="Application.StackCourse">
+    <configuration name="StackCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sedgewick.StackCourse" />
+      <module name="algorithms.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sedgewick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sedgewick.ThreeSum" />
       <module name="algorithms.main" />
@@ -213,34 +226,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="algorithms [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackCourse" />
         <item itemvalue="Gradle.BinarySearchTest.search" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Gradle.algorithms [clean]" />
         <item itemvalue="Gradle.algorithms [buildDependents]" />
-        <item itemvalue="Gradle.algorithms [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +252,8 @@
       <workItem from="1689689576047" duration="1597000" />
       <workItem from="1689755269391" duration="4854000" />
       <workItem from="1689772874867" duration="5520000" />
-      <workItem from="1689851843787" duration="4265000" />
+      <workItem from="1689851843787" duration="5616000" />
+      <workItem from="1689950612497" duration="3943000" />
     </task>
     <task id="LOCAL-00001" summary="add Bubble sort">
       <created>1687178989670</created>
@@ -318,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689855278869</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done part 2 of sedgewick course">
+      <created>1689936186126</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689936186126</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
