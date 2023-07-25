@@ -9,9 +9,8 @@ public class StackCourse {
     public static void main(String[] args) {
 
 
-        StackOfStringsResizingArray stack = new StackOfStringsResizingArray();
+        StackResizingArray<String> stack = new StackResizingArray<>();
         stack.ResizingArrayStackOfStrings();
-
         Scanner scanner = new Scanner(System.in);
 
         while (scanner.hasNext()) {
@@ -25,15 +24,15 @@ public class StackCourse {
     }
 }
 
-class StackOfStringsResizingArray {//в основе лежит увеличивающийся массив
-    private String[] s;
+class StackResizingArray<T> {//в основе лежит увеличивающийся массив
+    private T[] s;
     private int index = 0;
 
     public void ResizingArrayStackOfStrings() {
-        s = new String[1];
+        s = (T[]) new Object[1];
     }
 
-    public void push(String item) {
+    public void push(T item) {
         if (index == s.length) {
             resize(2 * s.length); //удваиваем массив
         }
@@ -41,15 +40,15 @@ class StackOfStringsResizingArray {//в основе лежит увеличив
     }
 
     private void resize(int capacity) {
-        String[] copy = new String[capacity];
+        T[] copy = (T[]) new Object[capacity];
         for (int i = 0; i < index; i++) {
             copy[i] = s[i];
         }
         s = copy;
     }
 
-    public String pop(){
-        String item = s[--index];
+    public T pop(){
+        T item = s[--index];
         s[index] = null;
         if (index>0&& index==s.length/4){
             resize(s.length/2); //уменьшаем массив в два раза
@@ -62,20 +61,20 @@ class StackOfStringsResizingArray {//в основе лежит увеличив
     }
 }
 
-class StackOfStringsArray { //в основе лежит массив, но размер массива необходимо задавать клиенту
-    private String[] s;
+class StackArray<T> { //в основе лежит массив, но размер массива необходимо задавать клиенту
+    private T[] s;
     private int index = 0;
 
     public void CapacityStack(int capacity) {
-        s = new String[capacity];
+        s = (T[]) new Object[1];
     }
 
-    public void push(String item) {
+    public void push(T item) {
         s[index++] = item;
     }
 
-    public String pop() {
-        String item = s[--index];
+    public T pop() {
+        T item = s[--index];
         s[index] = null;
         return item;
     }
@@ -85,23 +84,23 @@ class StackOfStringsArray { //в основе лежит массив, но ра
     }
 }
 
-class StackOfStringsLinkedList { //в основе лежит linked list
+class StackLinkedList<T> { //в основе лежит linked list
     private Node first = null;
 
     private class Node {
-        private String item;
+        private T item;
         private Node next;
     }
 
-    public void push(String item) {
+    public void push(T item) {
         Node old = first;
         first = new Node();
         first.item = item;
         first.next = old;
     }
 
-    public String pop() {
-        String item = first.item;
+    public T pop() {
+        T item = first.item;
         first = first.next;
         return item;
     }
