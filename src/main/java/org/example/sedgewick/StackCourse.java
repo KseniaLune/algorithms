@@ -1,9 +1,7 @@
 package org.example.sedgewick;
 
 
-import java.util.ArrayDeque;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class StackCourse {
     public static void main(String[] args) {
@@ -84,8 +82,32 @@ class StackArray<T> { //в основе лежит массив, но разме
     }
 }
 
-class StackLinkedList<T> { //в основе лежит linked list
+class StackLinkedList<T> implements Iterable <T>{ //в основе лежит linked list
     private Node first = null;
+
+    @Override
+    public Iterator<T> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<T>{
+        private Node current = first;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+        public void remove(){}
+        public T next(){
+            T item = current.item;
+            current = current.next;
+            return item;
+        }
+
+    }
+
+
+
 
     private class Node {
         private T item;
